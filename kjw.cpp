@@ -221,7 +221,7 @@ int main()
     while (1)
     {
         char c = ' ';
-        cout << "Y for path finding, N for exist : ";
+        cout << "Y for path finding, N for exit : ";
         cin >> c;
         if (c == 'N' || c == 'n') return 0;
         else if (c == 'Y' || c == 'y')
